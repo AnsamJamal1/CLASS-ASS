@@ -1,0 +1,38 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ body{
+     font-family:Arial,sans-serif; background: color #fef4f4;;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+ }
+ h2{
+    color: rgb(38, 38, 122);
+ }
+ .container{
+ width: 80%;
+ max-width: 1000px;
+ margin: auto;
+ text-align: center;
+ }
+ .gallery-title{
+     font-size: 2rem;
+     margin-bottom: 20px;
+ }
+ .gallery{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 20px;
+ }
+ .gallery-item{
+     flex-basis: calc(33.333%-20px);
+     background-color: rgb(202, 182, 182);
+     border: 1px solid rgb(19, 106, 106);
+     padding: 10px;
+ }
+ 
